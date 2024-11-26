@@ -4,5 +4,6 @@ while i < len(list_data):
     if list_data[i] > 0:
         print(list_data[i])
     else:
+        i += 1  # добавил инкримент
         continue
     i += 1
